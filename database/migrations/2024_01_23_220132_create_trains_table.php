@@ -20,7 +20,7 @@ return new class extends Migration
             $table->time('arrival_time');
             $table->string('train_code', 10);
             $table->boolean('in_time')->default(1);
-            $table->boolean('deleted')->default(0);
+            $table->boolean('delated')->default(0);
             $table->timestamps();
         });
     }
